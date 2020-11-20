@@ -25,7 +25,7 @@
 /* Begin PBXFileReference section */
 		8C8733482566484300C37746 /* CST-221 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CST-221"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9ABF32256776FB00ED3D52 /* HelloWorld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HelloWorld.c; sourceTree = "<group>"; };
-		8C9ABF352567778000ED3D52 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		8C9ABF3625677FEC00ED3D52 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 		8C9ABF2B256776BE00ED3D52 /* Assignment 1 */ = {
 			isa = PBXGroup;
 			children = (
+				8C9ABF3625677FEC00ED3D52 /* README.txt */,
 				8C9ABF32256776FB00ED3D52 /* HelloWorld.c */,
-				8C9ABF352567778000ED3D52 /* README */,
 			);
 			path = "Assignment 1";
 			sourceTree = "<group>";

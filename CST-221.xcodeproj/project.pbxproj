@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C87334C2566484300C37746 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C87334B2566484300C37746 /* main.c */; };
+		8C9ABF33256776FB00ED3D52 /* HelloWorld.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C9ABF32256776FB00ED3D52 /* HelloWorld.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		8C8733482566484300C37746 /* CST-221 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CST-221"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C87334B2566484300C37746 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8C9ABF32256776FB00ED3D52 /* HelloWorld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HelloWorld.c; sourceTree = "<group>"; };
+		8C9ABF352567778000ED3D52 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +42,7 @@
 		8C87333F2566484300C37746 = {
 			isa = PBXGroup;
 			children = (
-				8C87334A2566484300C37746 /* CST-221 */,
+				8C9ABF2B256776BE00ED3D52 /* Assignment 1 */,
 				8C8733492566484300C37746 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +55,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8C87334A2566484300C37746 /* CST-221 */ = {
+		8C9ABF2B256776BE00ED3D52 /* Assignment 1 */ = {
 			isa = PBXGroup;
 			children = (
-				8C87334B2566484300C37746 /* main.c */,
+				8C9ABF32256776FB00ED3D52 /* HelloWorld.c */,
+				8C9ABF352567778000ED3D52 /* README */,
 			);
-			path = "CST-221";
+			path = "Assignment 1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C87334C2566484300C37746 /* main.c in Sources */,
+				8C9ABF33256776FB00ED3D52 /* HelloWorld.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

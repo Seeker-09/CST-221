@@ -5,6 +5,7 @@
 //  Created by David Mundt on 11/19/20.
 //
 
+#include <pthread.h>
 #include <stdio.h>
 
 int main()

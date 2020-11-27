@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8C9ABF33256776FB00ED3D52 /* HelloWorld.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C9ABF32256776FB00ED3D52 /* HelloWorld.c */; };
+		8C9ABF442570B58E00ED3D52 /* ProducerConsumer.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C9ABF432570B58E00ED3D52 /* ProducerConsumer.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,9 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8C8733482566484300C37746 /* CST-221 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CST-221"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8733482566484300C37746 /* CST-221 */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.executable"; path = "CST-221"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9ABF32256776FB00ED3D52 /* HelloWorld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HelloWorld.c; sourceTree = "<group>"; };
 		8C9ABF3625677FEC00ED3D52 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		8C9ABF432570B58E00ED3D52 /* ProducerConsumer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ProducerConsumer.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		8C87333F2566484300C37746 = {
 			isa = PBXGroup;
 			children = (
+				8C9ABF3D2570B56400ED3D52 /* Producer and Consumer */,
 				8C9ABF2B256776BE00ED3D52 /* Assignment 1 */,
 				8C8733492566484300C37746 /* Products */,
 			);
@@ -62,6 +65,14 @@
 				8C9ABF32256776FB00ED3D52 /* HelloWorld.c */,
 			);
 			path = "Assignment 1";
+			sourceTree = "<group>";
+		};
+		8C9ABF3D2570B56400ED3D52 /* Producer and Consumer */ = {
+			isa = PBXGroup;
+			children = (
+				8C9ABF432570B58E00ED3D52 /* ProducerConsumer.c */,
+			);
+			path = "Producer and Consumer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C9ABF33256776FB00ED3D52 /* HelloWorld.c in Sources */,
+				8C9ABF442570B58E00ED3D52 /* ProducerConsumer.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +194,10 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -234,6 +250,10 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				SDKROOT = macosx;
 			};
 			name = Release;

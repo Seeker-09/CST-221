@@ -4,7 +4,11 @@
 
     Created by David Mundt on 11/26/20.
     
-    My solution here was to create 2 threads, one for 'producer' and one for 'consumer'. I also created a very simple buffer in order to access the information I needed for each function. I made sure that the 'producer' is always the first one to run, and I gave enough time for the producer to create the product before the consuemer could consume more than what was being produced.
+    My solution here was to create 2 threads, one for 'producer' and one for 'consumer'.
+        I also created a very simple buffer in order to access the information I needed for
+        each function. I made sure that the 'producer' is always the first one to run, and I
+        gave enough time for the producer to create the product before the consuemer could
+        consume more than what was being produced.
 */
 
 #include <pthread.h>

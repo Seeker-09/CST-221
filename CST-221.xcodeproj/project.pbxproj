@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8C9ABF33256776FB00ED3D52 /* HelloWorld.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C9ABF32256776FB00ED3D52 /* HelloWorld.c */; };
 		8C9ABF442570B58E00ED3D52 /* ProducerConsumer.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C9ABF432570B58E00ED3D52 /* ProducerConsumer.c */; };
+		8C9ABF67257212C600ED3D52 /* Semaphores.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C9ABF65257212C600ED3D52 /* Semaphores.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,9 @@
 		8C9ABF32256776FB00ED3D52 /* HelloWorld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HelloWorld.c; sourceTree = "<group>"; };
 		8C9ABF3625677FEC00ED3D52 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		8C9ABF432570B58E00ED3D52 /* ProducerConsumer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ProducerConsumer.c; sourceTree = "<group>"; };
+		8C9ABF64257212C600ED3D52 /* Sempahores */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = Sempahores; sourceTree = "<group>"; };
+		8C9ABF65257212C600ED3D52 /* Semaphores.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Semaphores.c; sourceTree = "<group>"; };
+		8C9ABF66257212C600ED3D52 /* Semaphores */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = Semaphores; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 		8C87333F2566484300C37746 = {
 			isa = PBXGroup;
 			children = (
+				8C9ABF63257212C600ED3D52 /* Semaphores */,
 				8C9ABF3D2570B56400ED3D52 /* Producer and Consumer */,
 				8C9ABF2B256776BE00ED3D52 /* Assignment 1 */,
 				8C8733492566484300C37746 /* Products */,
@@ -73,6 +78,16 @@
 				8C9ABF432570B58E00ED3D52 /* ProducerConsumer.c */,
 			);
 			path = "Producer and Consumer";
+			sourceTree = "<group>";
+		};
+		8C9ABF63257212C600ED3D52 /* Semaphores */ = {
+			isa = PBXGroup;
+			children = (
+				8C9ABF64257212C600ED3D52 /* Sempahores */,
+				8C9ABF65257212C600ED3D52 /* Semaphores.c */,
+				8C9ABF66257212C600ED3D52 /* Semaphores */,
+			);
+			path = Semaphores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +148,7 @@
 			files = (
 				8C9ABF33256776FB00ED3D52 /* HelloWorld.c in Sources */,
 				8C9ABF442570B58E00ED3D52 /* ProducerConsumer.c in Sources */,
+				8C9ABF67257212C600ED3D52 /* Semaphores.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

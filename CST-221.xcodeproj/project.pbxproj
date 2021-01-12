@@ -27,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C7A953325AD76F900AAAA73 /* Password.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Password.sh; sourceTree = "<group>"; };
 		8C8733482566484300C37746 /* CST-221 */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.executable"; path = "CST-221"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9ABF32256776FB00ED3D52 /* HelloWorld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HelloWorld.c; sourceTree = "<group>"; };
 		8C9ABF3625677FEC00ED3D52 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
@@ -50,9 +51,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C7A953225AD768D00AAAA73 /* Password Strength */ = {
+			isa = PBXGroup;
+			children = (
+				8C7A953325AD76F900AAAA73 /* Password.sh */,
+			);
+			path = "Password Strength";
+			sourceTree = "<group>";
+		};
 		8C87333F2566484300C37746 = {
 			isa = PBXGroup;
 			children = (
+				8C7A953225AD768D00AAAA73 /* Password Strength */,
 				8C9ABF7025841C5400ED3D52 /* Memory Management */,
 				8C9ABF692579740A00ED3D52 /* Deadlock Avoidance */,
 				8C9ABF63257212C600ED3D52 /* Semaphores */,
